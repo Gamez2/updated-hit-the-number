@@ -1,0 +1,31 @@
+body[theme="black"]{
+    background-color: black;
+    color: white;
+}
+
+
+.video{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
+.blur1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50%;
+    width: 60%;
+   
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    z-index: 2;
+}
+.easy{
+    color: rgba(252, 252, 252, 0.966);
+}
+.hard{
+    color: white
+}
